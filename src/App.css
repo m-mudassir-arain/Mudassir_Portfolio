@@ -1,0 +1,244 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* ---------------------Responsive section------------------------ */
+@media (max-width: 1344px) {
+  nav{
+    width: 90%;
+  }
+  #home-section{
+    width: 90%;
+  }
+  #home-left{
+    width: 60%;
+  }
+  #home-left h1{
+    font-size: 3rem;
+  }
+  #home-left h1 span{
+    font-size: 3rem;
+  }
+  #about-section{
+    width: 90%;
+  }
+  #portfolio-section{
+    width: 100%;
+  }
+  #portfolio-buttons{
+    width: 100%;
+  }
+  #portfolio-buttons button{
+    width: 18rem;
+  }
+  #projects-section{
+    width: 100%;
+  }
+  #project{
+    width: 48%;
+  }
+}
+
+@media (max-width: 1194px) {
+  #home-left h1{
+    font-size: 2.9rem;
+  }
+  #home-left h1 span{
+    font-size: 2.5rem;
+  }
+  #home-right img{
+    width: 100%;
+    height: 100%;
+  }
+  #about-right h1{
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+  #about-bio{
+    margin-bottom: .5rem;
+  }
+  #about-right p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #about-right hr{
+    margin-bottom: .5rem;
+  }
+  #about-buttons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #about-socialicons a{
+    font-size: 2rem;
+  }
+  #portfolio-buttons button{
+    width: 15rem;
+  }
+  #project{
+    width: 90%;
+  }
+  #project div h5{
+    font-size: 1.5rem;
+  }
+  #project div p{
+    font-size: 1.1rem;
+  }
+  #footer-contact{
+    flex-direction: column;
+    align-items: start;
+  }
+  #location, #Pnumber, #mail{
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 840px) {
+  #home-section{
+    flex-direction: column;
+    margin-top: 10rem;    
+  }
+  #home-left{
+    width: 90%;
+  }
+  #home-left- h1{
+    font-size: 3.75rem;
+  }
+  #home-right{
+    width: 90%;
+  }
+  #home-right h1{
+    font-size: 3.75rem;
+  }
+  #home-right h1 span{
+    font-size: 3.75rem;
+  }
+  #about-section{
+    flex-direction: column-reverse;
+  }
+  #about-right{
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  #about-right h1{
+    font-size: 3rem;
+  }
+  #about-right #about-bio{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  #about-right p{
+    font-size: 1.3rem;
+  }
+  #about-left{
+    width: 90%;
+  }
+  #portfolio-buttons button{
+    width: 11rem;
+  }
+  #project{
+    width: 100%;
+  }
+  #project div h5{
+    font-size: 1.1rem;
+  }
+  #certificate-section{
+    width: 100%;
+  }
+  #stack-section{
+    width: 100%;
+  }
+  #footer-contact{
+    flex-direction: column;
+    align-items: start;
+  }
+  #footer-contact div, #footer-contact a{
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  #Brandname a{
+    font-size: 1.5rem;
+  }
+  #home-section{
+    width: 100%;
+  }
+  #home-left p{
+    font-size: 1.3rem;
+  }
+  #about-section{
+    width: 100%;
+  }
+  #about-right h1{
+    font-size: 2rem;
+  }
+  #about-right #about-bio{
+    font-size: 1.2rem;
+  }
+  #about-right p{
+    font-size: 1.2rem;
+  }
+  #about-buttons p{
+    font-size: 1.2rem;
+  }
+  #about-socialicons{
+    width: 45%;
+  }
+  #about-socialicons a{
+    font-size: 2rem;
+  }
+  #portfolio-section h1{
+    font-size: 2.5rem;
+  }
+  #portfolio-section p{
+    font-size: 1.2rem;
+  }
+  #portfolio-buttons button{
+    width: 6rem;
+    font-size: 1.1rem;
+  }
+  #project div h5{
+    font-size: 1rem;
+    text-align: left;
+  }
+  #project div p{
+    font-size: .8rem;
+  }
+  #certificate-section div{
+    height: 14rem;
+    margin: 1rem;
+  }
+  #stack-section div{
+    margin: 1rem;
+    padding: 0;
+    font-size: 2rem;
+  }
+  footer div div h2{
+    font-size: 2.2rem;
+  }
+  #footer-contact{
+    width: 80%;
+  }
+  footer #Pnumber,footer #mail,footer #location{
+    font-size: 1.2rem;
+  }
+  #ownBy{
+    flex-direction: column-reverse;
+  }
+}
+
+
+
+
+
+
+
+
+  @media (max-width: 1023px) {
+    #DesktopLinks{
+      display: none;
+    }
+    #MobileLinks{
+        display: flex;
+    }
+  }  
